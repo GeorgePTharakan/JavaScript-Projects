@@ -1,0 +1,282 @@
+/* COUNTER CSS */
+/* #countlabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+
+}
+#container{
+    text-align: center;
+}
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: rgb(39, 216, 216);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color .2s;
+}
+.buttons:hover{
+    background-color: blue;
+} */
+
+
+/* RANDOM NUMBER GENERATOR CSS */
+/* body{
+    text-align: center;
+    margin-top: 20px;
+}
+#myButton{
+    
+    font-size: 2em;
+    border-radius: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+#myLabel{
+    font-size: 2em;
+} */
+
+
+/* TEMP  CONVERSION */
+/* body{
+    background-color:hsl(0, 0%, 95%);
+}
+h1{
+    color: aqua;
+}
+form{
+    background-color: #fff;
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #000;
+}
+#textBox{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+button{
+    margin: 15px;
+    background-color: #f00;
+    color: #fff;
+    font-size: 1.5em;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(228, 6, 6);
+}
+#result{
+    font-size: 1.75em;
+    font-weight: bold;
+} */
+
+
+/* FOR INTEREST CALCULATOR */
+/* body{
+    background-color: rgb(246, 245, 245);
+}
+H1{
+    font-size: 3em;
+    text-align: center;
+}
+form{
+    background-color: #ffffffb9;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0,.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+label{
+    font-size: 2em;
+    font-weight: bold;
+}
+input{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid hsl(0, 0%, 90%);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+button{
+    background-color: hsl(120, 100%, 40%);
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(120, 100%, 30%);
+}
+#total{
+    font-size: 2em;
+}
+#total-amount{
+    color: hsl(120, 100%, 35%);
+    font-weight: bold;
+} */
+
+/* FOR CLOCK */
+/* body{
+    margin: 0;
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#clock{
+    font-size: 6.5rem;
+    text-align: center;
+    font-weight: bold;
+} */
+
+/* FOR CALCULATOR */
+/* body{
+    margin: 0;
+    display: flex;
+    
+    justify-content: center;
+    
+    align-items: center;
+    height: 100vh;
+}
+#calculator{
+    background-color: rgba(0, 0, 0, 0.806);
+    
+    border-radius:15px;
+    max-width: 500px ;
+    max-height: 600px;
+    
+    overflow: hidden;
+}
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: rgba(91, 87, 87, 0.58) ;
+    color: #fff;
+    
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+}
+button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0,0%,30%);
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+button:hover{
+    background-color: hsl(0,0%,40%);
+}
+button:active{
+    background-color: hsl(0,0%,50%);
+}
+.op{
+    background-color: hsl(35,100%,55%);
+}
+.op:hover{
+    background-color: hsl(35,100%,65%);
+}
+.op:active{
+    background-color: hsl(35,100%,75%);
+} */
+
+/* rock paper scissors */
+/* body{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    margin-top: 0;
+    font-size: 3.5rem;
+    color: hsl(0, 0%, 20%);
+}
+.choices{
+    margin-bottom: 20px;
+}
+.choices button{
+    font-size: 7.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 250px;
+    background-color: hsl(200, 100%, 50%);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.choices button:hover{
+    background-color: hsl(200, 100%, 70%);
+}
+#playerDisplay, #computerDisplay{
+    font-size: 2.5rem;
+}
+#resultDisplay{
+    font-size: 3.5rem;
+    margin: 20px 0;
+}
+.scoreDisplay{
+    font-size: 2rem;
+}
+.greenText, #playerScoreDisplay{
+    color: hsl(130, 84%, 54%);
+}
+.redText, #computerScoreDisplay{
+    color: hsl(0, 84%, 60%);
+} */
+/* SLIDER  */
+
+.slider{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider img{
+    width:100%;
+    display: none;
+}
+img.displaySlide{
+    display: block;
+}
